@@ -24,3 +24,7 @@ print("Department:", department)
 print("MFA Enabled:", mfa_enabled)
 print("Threat SCORE:", threat_score)
 print("Account Locked:", account_locked)
+
+print(type(user_id))
+print(type(username))
+print(type(account_locked))
