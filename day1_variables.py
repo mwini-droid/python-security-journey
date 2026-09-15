@@ -1,7 +1,7 @@
 # === - IAM User Profile - ===
 # User Profile ...
 username = "MWINI" 
-user_id = 10001
+user_id = "10001"
 role = "security_analyst"
 department = "cybersecurity"
    
@@ -25,6 +25,7 @@ print("MFA Enabled:", mfa_enabled)
 print("Threat SCORE:", threat_score)
 print("Account Locked:", account_locked)
 
+# show examples of some data types
 print(type(user_id))
 print(type(username))
 print(type(account_locked))
