@@ -19,7 +19,7 @@ else:
 if failed_attempts >= 3:
     print(f" WARNING!: {failed_attempts} failed attempts")    
 else:
-    print(f"Login Attempts Noraml:{failed_attempts}")    
+    print(f"Login Attempts Normal:{failed_attempts}")    
     
 #Role Based Access
 if role == "admin":
