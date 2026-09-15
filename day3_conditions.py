@@ -9,7 +9,7 @@ account_locked = False
 failed_attempts = 5
 threat_score = 8.5
 
-# Aunthentication check
+# Authentication check
 if is_authenticated:
     print(f"{username} is authentiacted")
 else:
@@ -31,7 +31,7 @@ elif role == "guest":
 else:
     print("Unknown role - access denied")        
 
-# MFA + Autehntication together
+# MFA + Authentication together
 if is_authenticated and mfa_enabled:
     print("SECURE LOGIN - MFA enabled")
 else:
