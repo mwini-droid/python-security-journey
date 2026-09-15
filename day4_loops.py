@@ -29,10 +29,11 @@ for user in users:
 #Scan 4 -Simulate brute force action
 print("\n=== BRUTE FORCE SIMULATION ===")    
 failed_attempts = 0
-while failed_attempts < 5:
+max_attempts = 0
+while failed_attempts < max_attempts:
     failed_attempts += 1
-    print(f" Failed attempt {failed_attempts}") 
-    if failed_attempts == 3:
+    print(f" Failed attempt: {failed_attempts}") 
+    if failed_attempts == max_attempts:
         print("Account locked after 3 attempts!")
     break
 
